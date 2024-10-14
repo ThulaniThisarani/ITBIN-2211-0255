@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://th.bing.com/th/id/R.9728d77a96374dc8a5b4208f5357b86d?rik=T47NFWyr0w0yGw&riu=http%3a%2f%2fwww.norabeachresort.com%2fimages%2fgallery%2foverview8.jpg&ehk=Y0ClE3Euyi6DeabK%2byX8RT%2fJ6CnrT8p9CyHe0TDl3Jk%3d&risl=&pid=ImgRaw&r=0');
+    background-color: #2b2a2ae3;
+    background-size: cover; /* Ensure the image covers the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    padding-bottom: 50px; /* Space for the footer */
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 60%;
+    height: auto; /* Allow height to adjust based on content */
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 80px; /* Additional space to avoid overlap with footer */
+}
+
+.feedback-form {
+    background:#1a1717;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-form h2 {
+    margin-top: 0;
+    color: #fff;
+}
+
+.feedback-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #fff;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.feedback-form select {
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.feedback-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #5cb85c;
+    cursor: pointer;
+    position:justify;
+    width: 150px;
+}
+
+.feedback-form button:hover {
+    background-color: #3b3d3b;
+}
+
+.feedback-table {
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.feedback-table table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ffffff;
+}
+
+.feedback-table th,
+.feedback-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.feedback-table th {
+    background-color: #150909;
+}
+
+.rating-slider input {
+    width: 20%;
+}
+
+.form-buttons {
+    margin-top: 15px;
+    width:50%;
+}
